@@ -4,7 +4,7 @@ from random import randint
 class AbstractParent(ABC):
 
 	@abstractmethod
-	def hello_friend():
+	def hello_friend(self):
 		raise NotImplementedError
 
 class Mother(AbstractParent):
